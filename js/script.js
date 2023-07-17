@@ -22,7 +22,7 @@ function smallestDivisor (num) {
         for (let i = 2; i <= num; i++) {
             let answer = num / i;
 
-            if (Number.isInteger(answer) === true) {
+            if (Number.isInteger(answer)) {
                 result = i;
                 break
             }
